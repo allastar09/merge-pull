@@ -1,30 +1,328 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CREATEX ONLINE SCHOOL</title>
-    <link rel="stylesheet" href="./src/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Createx Online Courses</title>
+  <link rel="stylesheet" href="./src/output.css">
 </head>
-<body>
-    <header class="flex ">
-        <div>
-            <img src="./image/logo.png" alt="">
-        </div>
-        <nav>
-            <a href="#">About Us</a>
-            <a href="#">Courses</a>
-            <a href="#">Events</a>
-            <a href="#">Blog</a>
-            <a href="#">Contacts</a>
+<body class="font-sans text-gray-800 bg-white">
+
+  <header class="bg-[#FEDCD2] bg-opacity-30">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-12">
+        <a href="#" class="text-2xl font-bold text-[#1E211C]">CREATE<b class="text-[#FF5A36] font-bold">X</b></a>
+        <nav class="hidden md:flex space-x-8 font-semibold text-gray-600">
+          <a href="./index.html" class="hover:text-[#FF5A36] transition">About Us</a>
+          <a href="./src/page2.html" class="hover:text-[#FF5A36] transition">Courses</a>
+          <a href="./src/page3.html" class="hover:text-[#FF5A36] transition">Events</a>
+          <a href="./src/page4.html" class="hover:text-[#FF5A36] transition">Blog</a>
+          <a href="#" class="hover:text-[#FF5A36] transition">Contact</a>
         </nav>
-        <div>
-            <button>Get consultation</button>
-            <div>
-                <div><img src="./image/Profile.png" alt=""></div>
-                <p>Log in / Register</p>
-            </div>
+      </div>
+      <div class="flex items-center space-x-6">
+        <button class="bg-[#FF5A36] text-white px-6 py-3 rounded font-semibold hover:bg-[#e04e2e] transition">
+          Get consultation
+        </button>
+        <a href="#" class="hidden sm:inline-block text-gray-700 font-semibold hover:text-[#FF5A36]">Log in / Register</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="white pt-12 pb-20">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="flex items-center space-x-2 mb-6">
+          <div class="w-3 h-3 bg-[#FF5A36] rounded-full"></div>
+          <div class="text-sm font-bold uppercase tracking-wider text-gray-600">Play video</div>
         </div>
-    </header>
+        <h1 class="text-5xl lg:text-6xl font-black text-[#1E211C] leading-tight mb-8">
+          Enjoy studying with Createx Online Courses
+        </h1>
+        <div class="flex space-x-4">
+          <a href="#" class="border border-[#FF5A36] text-[#FF5A36] px-8 py-4 rounded font-semibold hover:bg-[#FF5A36] hover:text-white transition">
+            About us
+          </a>
+          <a href="#" class="bg-[#FF5A36] text-white px-8 py-4 rounded font-semibold hover:bg-[#e04e2e] transition">
+            Explore courses
+          </a>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="./image/illustration.png" alt="Hero Illustration" class="w-full max-w-lg">
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center lg:text-left">
+      <div>
+        <div class="text-4xl font-black text-[#1E211C]">1200</div>
+        <p class="text-gray-500 text-sm mt-1">Students graduated</p>
+      </div>
+      <div>
+        <div class="text-4xl font-black text-[#1E211C]">84</div>
+        <p class="text-gray-500 text-sm mt-1">Completed courses</p>
+      </div>
+      <div>
+        <div class="text-4xl font-black text-[#1E211C]">16</div>
+        <p class="text-gray-500 text-sm mt-1">Qualified tutors</p>
+      </div>
+      <div>
+        <div class="text-4xl font-black text-[#1E211C]">5</div>
+        <p class="text-gray-500 text-sm mt-1">Years of experience</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <img src="./image/image (38).png" alt="Who we are" class="rounded-lg shadow-lg w-full">
+      </div>
+      <div>
+        <div class="text-sm font-bold uppercase tracking-wider text-gray-500 block mb-2">Who we are</div>
+        <h2 class="text-4xl font-black text-[#1E211C] mb-6">Why Createx?</h2>
+        <ul class="space-y-4 text-gray-600">
+          <li class="flex items-start space-x-3">
+            <div class="text-[#FF5A36] mt-1">✔</div>
+            <div>A dynamic, UTF-8 certified methodology designed for modern learning.</div>
+          </li>
+          <li class="flex items-start space-x-3">
+            <div class="text-[#FF5A36] mt-1">✔</div>
+            <div>Mentorship from leading industry experts who practice what they teach.</div>
+          </li>
+          <li class="flex items-start space-x-3">
+            <div class="text-[#FF5A36] mt-1">✔</div>
+            <div>A vast community of over 1200 graduates worldwide.</div>
+          </li>
+        </ul>
+        <button class="mt-8 bg-[#FF5A36] text-white px-8 py-3 rounded font-semibold hover:bg-[#e04e2e] transition">
+          More about us
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex justify-between items-end mb-12">
+        <div>
+          <div class="text-sm font-bold uppercase tracking-wider text-gray-500 block mb-2">Ready to learn?</div>
+          <h2 class="text-4xl font-black text-[#1E211C]">Featured Courses</h2>
+        </div>
+        <button class="border border-[#FF5A36] text-[#FF5A36] px-6 py-3 rounded font-semibold hover:bg-[#FF5A36] hover:text-white transition">
+          View all courses
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
+          <div class="w-full sm:w-1/3 bg-blue-500 h-48 sm:h-auto flex items-center justify-center text-white font-bold">Marketing</div>
+          <div class="p-6 flex-1">
+            <div class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded font-bold uppercase">Marketing</div>
+            <h3 class="text-xl font-bold text-[#1E211C] mt-2 mb-4">The Ultimate Google Ads Training</h3>
+            <p class="text-gray-500 text-sm">$120 | <b class="text-gray-400 font-normal">by Jerome Bell</b></p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
+          <div class="w-full sm:w-1/3 bg-green-500 h-48 sm:h-auto flex items-center justify-center text-white font-bold">Development</div>
+          <div class="p-6 flex-1">
+            <div class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded font-bold uppercase">Development</div>
+            <h3 class="text-xl font-bold text-[#1E211C] mt-2 mb-4">Web Development Fundamental</h3>
+            <p class="text-gray-500 text-sm">$190 | <b class="text-gray-400 font-normal">by Dianne Russell</b></p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
+          <div class="w-full sm:w-1/3 bg-orange-500 h-48 sm:h-auto flex items-center justify-center text-white font-bold">Design</div>
+          <div class="p-6 flex-1">
+            <div class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded font-bold uppercase">Design</div>
+            <h3 class="text-xl font-bold text-[#1E211C] mt-2 mb-4">Graphic Design Masterclass</h3>
+            <p class="text-gray-500 text-sm">$250 | <b class="text-gray-400 font-normal">by Arlene McCoy</b></p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden flex flex-col sm:flex-row">
+          <div class="w-full sm:w-1/3 bg-purple-500 h-48 sm:h-auto flex items-center justify-center text-white font-bold">Management</div>
+          <div class="p-6 flex-1">
+            <div class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded font-bold uppercase">Management</div>
+            <h3 class="text-xl font-bold text-[#1E211C] mt-2 mb-4">Project Management Essentials</h3>
+            <p class="text-gray-500 text-sm">$300 | <b class="text-gray-400 font-normal">by Cody Fisher</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gradient-to-b from-white to-[#FEDCD2] to-opacity-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <div class="text-sm font-bold uppercase tracking-wider text-gray-500 block mb-2">Our Events</div>
+      <h2 class="text-4xl font-black text-[#1E211C] mb-12">Lectures & workshops</h2>
+      
+      <div class="space-y-4 text-left">
+        <div class="bg-white p-6 rounded-lg shadow-sm flex flex-col sm:flex-row items-center justify-between border border-gray-100">
+          <div class="flex items-center space-x-6">
+            <div class="text-3xl font-black text-[#FF5A36]">05</div>
+            <div>
+              <div class="text-xs text-gray-400 font-bold uppercase">May, 11:00</div>
+              <p class="font-bold text-gray-800 mt-1">Online lecture: Business Strategy Basics</p>
+            </div>
+          </div>
+          <button class="mt-4 sm:mt-0 border border-[#FF5A36] text-[#FF5A36] px-4 py-2 rounded font-semibold hover:bg-[#FF5A36] hover:text-white transition">
+            View more
+          </button>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm flex flex-col sm:flex-row items-center justify-between border border-gray-100">
+          <div class="flex items-center space-x-6">
+            <div class="text-3xl font-black text-[#FF5A36]">24</div>
+            <div>
+              <div class="text-xs text-gray-400 font-bold uppercase">May, 15:30</div>
+              <p class="font-bold text-gray-800 mt-1">Masterclass: Advanced CSS Layouts</p>
+            </div>
+          </div>
+          <button class="mt-4 sm:mt-0 border border-[#FF5A36] text-[#FF5A36] px-4 py-2 rounded font-semibold hover:bg-[#FF5A36] hover:text-white transition">
+            View more
+          </button>
+        </div>
+      </div>
+
+      <div class="mt-12 flex items-center justify-center gap-4">
+        <div class="text-gray-500">Do you want more events?</div>
+        <button class="bg-[#FF5A36] text-white px-6 py-3 rounded font-semibold hover:bg-[#e04e2e] transition">
+          All events
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <div class="text-sm font-bold uppercase tracking-wider text-gray-500 block mb-2">Createx Certificate</div>
+        <h2 class="text-4xl font-black text-[#1E211C] mb-6">Your expertise will be confirmed</h2>
+        <p class="text-gray-600 leading-relaxed mb-8">
+          We provide a completion certificate for every graduate after successful course completion and final project defense.
+        </p>
+        <div class="flex space-x-6">
+        </div>
+      </div>
+      <div>
+        <img src="./image/illustration (1).png" alt="Certificate mockup" class="rounded-lg shadow-xl border w-full">
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-sm font-bold uppercase tracking-wider text-gray-500 block mb-2">Our Team</div>
+      <h2 class="text-4xl font-black text-[#1E211C] mb-12">Meet our team</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="text-center">
+          <div class="bg-amber-400 rounded-lg overflow-hidden mb-4 aspect-square flex items-end justify-center">
+          </div>
+          <h4 class="font-bold text-lg text-[#1E211C]">Dianne Russell</h4>
+          <p class="text-sm text-gray-500">Founder & CEO</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-amber-400 rounded-lg overflow-hidden mb-4 aspect-square flex items-end justify-center">
+          </div>
+          <h4 class="font-bold text-lg text-[#1E211C]">Jerome Bell</h4>
+          <p class="text-sm text-gray-500">Marketing Tutor</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-amber-400 rounded-lg overflow-hidden mb-4 aspect-square flex items-end justify-center">
+          </div>
+          <h4 class="font-bold text-lg text-[#1E211C]">Arlene McCoy</h4>
+          <p class="text-sm text-gray-500">Design Tutor</p>
+        </div>
+        <div class="text-center">
+          <div class="bg-amber-400 rounded-lg overflow-hidden mb-4 aspect-square flex items-end justify-center">
+          </div>
+          <h4 class="font-bold text-lg text-[#1E211C]">Cody Fisher</h4>
+          <p class="text-sm text-gray-500">Dev Tutor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex justify-between items-end mb-12">
+        <div>
+          <div class="text-sm font-bold uppercase tracking-wider text-gray-500 block mb-2">Our Blog</div>
+          <h2 class="text-4xl font-black text-[#1E211C]">Latest posts</h2>
+        </div>
+        <button class="bg-[#FF5A36] text-white px-6 py-3 rounded font-semibold hover:bg-[#e04e2e] transition">
+          Go to blog
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="group cursor-pointer">
+          <div class="bg-blue-100 rounded-lg h-48 mb-4 flex items-center justify-center font-bold text-blue-500 text-lg">Marketing</div>
+          <div class="text-xs text-gray-400 font-bold uppercase">Marketing | May 4, 2026</div>
+          <h3 class="font-bold text-lg text-[#1E211C] mt-2 group-hover:text-[#FF5A36] transition">How to market your project on a budget</h3>
+        </div>
+        <div class="group cursor-pointer">
+          <div class="bg-green-100 rounded-lg h-48 mb-4 flex items-center justify-center font-bold text-green-500 text-lg">Development</div>
+          <div class="text-xs text-gray-400 font-bold uppercase">Development | April 28, 2026</div>
+          <h3 class="font-bold text-lg text-[#1E211C] mt-2 group-hover:text-[#FF5A36] transition">What is the best language to learn first?</h3>
+        </div>
+        <div class="group cursor-pointer">
+          <div class="bg-orange-100 rounded-lg h-48 mb-4 flex items-center justify-center font-bold text-orange-500 text-lg">Design</div>
+          <div class="text-xs text-gray-400 font-bold uppercase">Design | April 15, 2026</div>
+          <h3 class="font-bold text-lg text-[#1E211C] mt-2 group-hover:text-[#FF5A36] transition">Should developers learn design rules?</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-[#FEDCD2] bg-opacity-40 text-center relative overflow-hidden">
+    <div class="max-w-xl mx-auto px-6 relative z-10">
+      <div class="text-sm font-bold uppercase tracking-wider text-gray-500 block mb-2">Don't miss anything</div>
+      <h2 class="text-3xl font-black text-[#1E211C] mb-8">Subscribe to the Createx School newsletter</h2>
+      <form class="flex flex-col sm:flex-row gap-4 justify-center">
+        <input type="email" placeholder="Your working email" class="px-4 py-3 rounded border border-gray-300 w-full sm:max-w-xs focus:outline-none focus:border-[#FF5A36]">
+        <button class="bg-[#FF5A36] text-white px-6 py-3 rounded font-semibold hover:bg-[#e04e2e] transition whitespace-nowrap">
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-[#1E211C] text-gray-400 py-12 text-sm">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h4 class="text-white font-bold text-lg mb-4">CREATE<b class="text-[#FF5A36] font-bold">X</b></h4>
+        <p class="leading-relaxed">Createx Online School is a leader in online education, helping thousands achieve their dreams.</p>
+      </div>
+      <div>
+        <h5 class="text-white font-bold uppercase tracking-wider mb-4">Site Map</h5>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white transition">About Us</a></li>
+          <li><a href="#" class="hover:text-white transition">Courses</a></li>
+          <li><a href="#" class="hover:text-white transition">Events</a></li>
+          <li><a href="#" class="hover:text-white transition">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-white font-bold uppercase tracking-wider mb-4">Courses</h5>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white transition">Marketing</a></li>
+          <li><a href="#" class="hover:text-white transition">Management</a></li>
+          <li><a href="#" class="hover:text-white transition">Web Development</a></li>
+          <li><a href="#" class="hover:text-white transition">Graphic Design</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-white font-bold uppercase tracking-wider mb-4">Contact Us</h5>
+        <p class="mb-2">Phone: (405) 555-0128</p>
+        <p>Email: hello@createx.com</p>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 mt-12 pt-6 border-t border-gray-800 text-center md:text-left flex flex-col md:flex-row justify-between text-xs text-gray-500">
+      <p>© 2026 Createx School. All rights reserved.</p>
+      <p class="mt-2 md:mt-0">Built with Tailwind CSS</p>
+    </div>
+  </footer>
+
 </body>
 </html>
